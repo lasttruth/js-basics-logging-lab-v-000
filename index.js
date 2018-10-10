@@ -1,8 +1,5 @@
 const driver = 'bob';
 
-function logReturner() {
-  console.log(false);
-
-  return true;
-  
-}
+console.log("this code was called");
+console.log(driver); 
+console.log(driver,'is the driver variable name');
